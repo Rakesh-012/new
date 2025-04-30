@@ -2,7 +2,7 @@
 
 A machine learning project utilizing classification algorithms to predict fetal health status based on cardiotocographic (CTG) measurements. This tool aims to assist healthcare professionals in early detection of abnormal fetal conditions through AI-driven insights.
 
-## 🧠 Project Overview
+## Project Overview
 
 This project analyzes CTG data to classify fetal health into three categories:
 - **Normal (1)**
@@ -11,7 +11,7 @@ This project analyzes CTG data to classify fetal health into three categories:
 
 The workflow encompasses data preprocessing, feature selection, model training, evaluation, and deployment via a Flask web application.
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── app.py                   # Flask application script
@@ -26,12 +26,12 @@ The workflow encompasses data preprocessing, feature selection, model training, 
 └── README.md                # Project documentation
 ```
 
-## 📊 Dataset
+## Dataset
 
 - **Source**: [Kaggle - Fetal Health Classification](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification)
 - **Description**: The dataset comprises 21 numerical features extracted from CTG examinations, each labeled by expert obstetricians into one of the three health categories.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Programming Language**: Python 3.x
 - **Libraries**:
@@ -41,7 +41,7 @@ The workflow encompasses data preprocessing, feature selection, model training, 
   - Web Framework: `Flask`
 - **Model Serialization**: `pickle`
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -65,11 +65,6 @@ Ensure you have the following installed:
 
 3. **Install the required packages**:
    ```bash
-   pip install -r requirements.txt
-   ```
-
-   *Note: If `requirements.txt` is not present, you can install packages manually:*
-   ```bash
    pip install pandas numpy matplotlib seaborn scikit-learn flask
    ```
 
@@ -83,7 +78,7 @@ Ensure you have the following installed:
 2. **Access the web interface**:
    Open your browser and navigate to `http://127.0.0.1:5000/`
 
-## 🧪 Model Training and Evaluation
+## Model Training and Evaluation
 
 The Jupyter Notebook `Main Code.ipynb` includes:
 - Data preprocessing steps
@@ -91,18 +86,14 @@ The Jupyter Notebook `Main Code.ipynb` includes:
 - Model training using classification algorithms
 - Evaluation metrics such as accuracy, precision, recall, and F1-score
 
-## 📈 Visualizations
+## Visualizations
 
 The project includes various plots to aid in understanding the data and model performance:
 - Correlation heatmaps
 - Distribution plots
 - Confusion matrices
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Acknowledgments
+## Acknowledgments
 
 - Dataset provided by [Kaggle - Fetal Health Classification](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification)
 - Inspired by the need for early detection tools in prenatal care
