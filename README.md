@@ -148,12 +148,3 @@ The project includes various plots to aid in understanding the data and model pe
 - Dataset provided by [Kaggle - Fetal Health Classification](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification)
 - Inspired by the need for early detection tools in prenatal care
 ```
-
-
-
-
-![image](https://github.com/user-attachments/assets/ae28ee55-b77f-4b87-86cd-8a150a579408)
-
-## Result
-![image](https://github.com/user-attachments/assets/c4f38bf9-68ff-42f0-9591-e982643c3d15)
-
